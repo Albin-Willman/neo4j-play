@@ -1,0 +1,439 @@
+2014-08-28 16:15:49.490+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2014-08-28 16:15:49.492+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2014-08-28 16:15:49.499+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=643M
+2014-08-28 16:15:49.499+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo_store=/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore
+2014-08-28 16:15:49.499+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=178M
+2014-08-28 16:15:49.499+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=546M
+2014-08-28 16:15:49.499+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.source=server
+2014-08-28 16:15:49.499+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=data/graph.db
+2014-08-28 16:15:49.499+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=787M
+2014-08-28 16:15:49.499+0000 INFO  [o.n.k.i.DiagnosticsManager]: keep_logical_logs=true
+2014-08-28 16:15:49.499+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=619M
+2014-08-28 16:15:49.499+0000 INFO  [o.n.k.i.DiagnosticsManager]: remote_shell_enabled=true
+2014-08-28 16:15:49.499+0000 INFO  [o.n.k.i.DiagnosticsManager]: ephemeral=false
+2014-08-28 16:15:49.501+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2014-08-28 16:15:49.501+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2014-08-28 16:15:49.501+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2014-08-28 16:15:49.501+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2014-08-28 16:15:49.501+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2014-08-28 16:15:49.501+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2014-08-28 16:15:49.501+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2014-08-28 16:15:49.501+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2014-08-28 16:15:49.501+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2014-08-28 16:15:49.501+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2014-08-28 16:15:49.501+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2014-08-28 16:15:49.502+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2014-08-28 16:15:49.504+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 8.00 GB
+2014-08-28 16:15:49.505+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 2.50 GB
+2014-08-28 16:15:49.505+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 4.60 GB
+2014-08-28 16:15:49.506+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 1.00 GB
+2014-08-28 16:15:49.506+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 1.00 GB
+2014-08-28 16:15:49.507+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2014-08-28 16:15:49.507+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 104.43 MB
+2014-08-28 16:15:49.507+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 123.75 MB
+2014-08-28 16:15:49.507+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 1.97 GB
+2014-08-28 16:15:49.514+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+2014-08-28 16:15:49.514+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen, CMS Perm Gen]
+2014-08-28 16:15:49.516+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=703.06 kB, max=48.00 MB, threshold=0.00 B
+2014-08-28 16:15:49.517+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Eden Space (Heap memory): committed=34.13 MB, used=14.13 MB, max=266.25 MB, threshold=?
+2014-08-28 16:15:49.517+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Survivor Space (Heap memory): committed=4.25 MB, used=4.25 MB, max=33.25 MB, threshold=?
+2014-08-28 16:15:49.518+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: CMS Old Gen (Heap memory): committed=85.38 MB, used=967.52 kB, max=1.68 GB, threshold=0.00 B
+2014-08-28 16:15:49.518+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: CMS Perm Gen (Non-heap memory): committed=20.75 MB, used=12.45 MB, max=82.00 MB, threshold=0.00 B
+2014-08-28 16:15:49.518+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2014-08-28 16:15:49.519+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Mac OS X; version: 10.9.2; arch: x86_64; cpus: 4
+2014-08-28 16:15:49.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max number of file descriptors: 10240
+2014-08-28 16:15:49.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: Number of open file descriptors: 83
+2014-08-28 16:15:49.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 3085@albins-mbp
+2014-08-28 16:15:49.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2014-08-28 16:15:49.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Europe/Stockholm
+2014-08-28 16:15:49.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2014-08-28 16:15:49.521+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2014-08-28 16:15:49.521+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2014-08-28 16:15:49.521+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 24.65-b04
+2014-08-28 16:15:49.521+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2014-08-28 16:15:49.522+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-XX:+DisableExplicitGC, -Dorg.neo4j.server.properties=conf/neo4j-server.properties, -Djava.util.logging.config.file=conf/logging.properties, -Dlog4j.configuration=file:conf/log4j.properties, -XX:+UseConcMarkSweepGC, -XX:+CMSClassUnloadingEnabled, -Dneo4j.home=/Users/Albin/Kod/neo4j-play/db/neo4j/development, -Dneo4j.instance=/Users/Albin/Kod/neo4j-play/db/neo4j/development, -Dfile.encoding=UTF-8]
+2014-08-28 16:15:49.522+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2014-08-28 16:15:49.525+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/logback-classic-1.0.9.jar
+2014-08-28 16:15:49.525+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/dns_sd.jar
+2014-08-28 16:15:49.525+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/charsets.jar
+2014-08-28 16:15:49.525+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2014-08-28 16:15:49.525+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jetty-io-9.0.5.v20130815.jar
+2014-08-28 16:15:49.525+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jackson-core-asl-1.9.7.jar
+2014-08-28 16:15:49.525+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/commons-collections-3.2.1.jar
+2014-08-28 16:15:49.525+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/slf4j-api-1.6.2.jar
+2014-08-28 16:15:49.525+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/vecmath.jar
+2014-08-28 16:15:49.525+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jetty-security-9.0.5.v20130815.jar
+2014-08-28 16:15:49.525+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Internet%20Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/ext/sunec.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/parboiled-core-1.1.6.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/commons-beanutils-1.8.0.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jce.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jsse.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/neo4j-graph-algo-2.0.2.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/rt.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/rrd4j-2.0.7.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/asm-3.1.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jersey-multipart-1.9.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jcl-over-slf4j-1.6.1.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/neo4j-lucene-index-2.0.2.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libJ3D.jnilib
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Internet%20Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/ext/sunjce_provider.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jsr311-api-1.1.2.r612.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jersey-core-1.9.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/commons-compiler-2.6.1.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/QTJava.zip
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/neo4j-kernel-2.0.2.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/commons-digester-1.8.1.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/resources.jar
+2014-08-28 16:15:49.526+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/neo4j-cypher-compiler-2.0-2.0.2.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/parboiled-scala_2.10-1.1.6.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/j3daudio.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/server-api-2.0.2.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jetty-xml-9.0.5.v20130815.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/janino-2.6.1.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/j3dcore.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/neo4j-cypher-compiler-1.9-2.0.2.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/neo4j-server-2.0.2-static-web.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/usr/lib/java/libjdns_sd.jnilib
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/conf/
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jetty-http-9.0.5.v20130815.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/j3dutils.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/jai_core.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/opencsv-2.0.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/sunrsasign.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/neo4j-shell-2.0.2.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/neo4j-cypher-commons-2.0.2.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jetty-util-9.0.5.v20130815.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Internet%20Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/ext/zipfs.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/neo4j-graph-matching-2.0.2.jar
+2014-08-28 16:15:49.527+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/classes
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/jai_codec.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/commons-configuration-1.6.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/javax.servlet-3.0.0.v201112011016.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/neo4j-udc-2.0.2.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/commons-lang-2.4.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/commons-beanutils-core-1.8.0.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/rhino-1.7R4.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/lucene-core-3.6.2.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/mimepull-1.6.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/bcprov-jdk16-140.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/scala-library-2.10.3.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Internet%20Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/ext/sunpkcs11.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Internet%20Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/ext/localedata.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/neo4j-server-2.0.2.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/commons-io-1.4.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/logback-access-1.0.9.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jetty-webapp-9.0.5.v20130815.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jetty-server-9.0.5.v20130815.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jackson-mapper-asl-1.9.7.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/neo4j-cypher-2.0.2.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/neo4j-jmx-2.0.2.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jackson-jaxrs-1.9.7.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/concurrentlinkedhashmap-lru-1.3.1.jar
+2014-08-28 16:15:49.528+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jersey-server-1.9.jar
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/lib/geronimo-jta_1.1_spec-1.1.1.jar
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Internet%20Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/ext/dnsns.jar
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/logback-core-1.0.9.jar
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/commons-logging-1.1.1.jar
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jfr.jar
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/neo4j-browser-2.0.2.jar
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Albin/Kod/neo4j-play/db/neo4j/development/system/lib/jetty-servlet-9.0.5.v20130815.jar
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/Albin/Library/Java/Extensions
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Library/Java/Extensions
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Network/Library/Java/Extensions
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]: /System/Library/Java/Extensions
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib/java
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/Albin/Kod/neo4j-play/db/neo4j/development
+2014-08-28 16:15:49.529+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country.format = GB
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.properties = conf/neo4j-server.properties
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: gopherProxySet = false
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = :
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.launcher = SUN_STANDARD
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = unknown
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = /Users/Albin/Kod/neo4j-play/db/neo4j/development
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: log4j.configuration = file:conf/log4j.properties
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = UTF-8
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = /Users/Albin
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Europe/Stockholm
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = UTF-8
+2014-08-28 16:15:49.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = Albin
+2014-08-28 16:15:49.531+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = org.neo4j.server.Bootstrapper
+2014-08-28 16:15:49.531+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2014-08-28 16:15:49.531+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2014-08-28 16:15:49.531+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2014-08-28 16:15:49.531+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = /
+2014-08-28 16:15:49.531+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeBig
+2014-08-28 16:15:49.531+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2014-08-28 16:15:49.531+0000 INFO  [o.n.k.i.DiagnosticsManager]: socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-08-28 16:15:49.531+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.instance = /Users/Albin/Kod/neo4j-play/db/neo4j/development
+2014-08-28 16:15:49.531+0000 INFO  [o.n.k.i.DiagnosticsManager]: ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-08-28 16:15:49.531+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.home = /Users/Albin/Kod/neo4j-play/db/neo4j/development
+2014-08-28 16:15:49.531+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = 
+2014-08-28 16:15:49.531+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2014-08-28 16:15:49.533+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface en0:
+2014-08-28 16:15:49.533+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:3e15:c2ff:fec4:59ec%4
+2014-08-28 16:15:49.533+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.5.90
+2014-08-28 16:15:49.533+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface lo0:
+2014-08-28 16:15:49.534+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:0:0:1%1
+2014-08-28 16:15:49.534+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2014-08-28 16:15:49.534+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2014-08-28 16:15:49.534+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2014-08-28 16:15:49.706+0000 INFO  [o.n.k.i.n.s.StoreFactory]: Creating new db @ /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore
+2014-08-28 16:15:49.739+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-08-28 16:15:49.741+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-08-28 16:15:49.742+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.743+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.745+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-08-28 16:15:49.746+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-08-28 16:15:49.746+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.747+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.749+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-08-28 16:15:49.750+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-08-28 16:15:49.750+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-08-28 16:15:49.750+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-08-28 16:15:49.751+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.propertystore.db.strings] brickCount=0 brickSize=572416b mappedMem=572522496b (storeSize=128b)
+2014-08-28 16:15:49.751+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-08-28 16:15:49.752+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-08-28 16:15:49.752+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.propertystore.db.arrays] brickCount=0 brickSize=648960b mappedMem=649068544b (storeSize=128b)
+2014-08-28 16:15:49.755+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.propertystore.db] brickCount=0 brickSize=6742327b mappedMem=674234368b (storeSize=0b)
+2014-08-28 16:15:49.757+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.relationshipstore.db] brickCount=0 brickSize=8252277b mappedMem=825229312b (storeSize=0b)
+2014-08-28 16:15:49.757+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2014-08-28 16:15:49.759+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.nodestore.db] brickCount=0 brickSize=1866452b mappedMem=186646528b (storeSize=0b)
+2014-08-28 16:15:49.760+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2014-08-28 16:15:49.760+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-08-28 16:15:49.766+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.767+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.768+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.768+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.769+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.770+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.770+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.771+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.772+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.773+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.774+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.775+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.778+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
+2014-08-28 16:15:49.779+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore hit=0 miss=8 switches=0 ooe=0
+2014-08-28 16:15:49.784+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-08-28 16:15:49.785+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-08-28 16:15:49.785+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-08-28 16:15:49.786+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-08-28 16:15:49.786+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.propertystore.db.strings] brickCount=0 brickSize=572416b mappedMem=572522496b (storeSize=128b)
+2014-08-28 16:15:49.787+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-08-28 16:15:49.787+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-08-28 16:15:49.788+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.propertystore.db.arrays] brickCount=0 brickSize=648960b mappedMem=649068544b (storeSize=128b)
+2014-08-28 16:15:49.788+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.propertystore.db] brickCount=0 brickSize=6742327b mappedMem=674234368b (storeSize=0b)
+2014-08-28 16:15:49.789+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.relationshipstore.db] brickCount=0 brickSize=8252277b mappedMem=825229312b (storeSize=0b)
+2014-08-28 16:15:49.789+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2014-08-28 16:15:49.790+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.nodestore.db] brickCount=0 brickSize=1866452b mappedMem=186646528b (storeSize=0b)
+2014-08-28 16:15:49.790+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2014-08-28 16:15:49.791+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Albin/Kod/neo4j-play/db/neo4j/development/data/graph.db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=63b)
+2014-08-28 16:15:49.871+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2014-08-28 16:15:49.899+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2014-08-28 16:15:50.000+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [data/graph.db/nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2014-08-28 16:15:50.002+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: Rebuilding lucene scan store, this may take a while
+2014-08-28 16:15:50.003+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: Lucene scan store rebuilt (roughly -1 nodes)
+2014-08-28 16:15:50.006+0000 INFO  [o.n.k.i.t.TxManager]: TM new log: tm_tx_log.1
+2014-08-28 16:15:50.010+0000 INFO  [o.n.k.i.t.KernelHealth]: Kernel health set to OK
+2014-08-28 16:15:50.155+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [data/graph.db/index/lucene.log.1] version=0, lastTxId=1 (clean)
+2014-08-28 16:15:50.159+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2014-08-28 16:15:50.159+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1409242549707, id:-4639540082191313073, store version: 13843131341501958]
+2014-08-28 16:15:50.159+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.0.2
+2014-08-28 16:15:50.159+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2014-08-28 16:15:50.165+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Lucene Index (neo4j-lucene-index), version: 2.0.2; revision: 2.0.2:2.0-maint:1007/47f4314f1f50098884c1c1f4e1c3b79d5ce46db1
+2014-08-28 16:15:50.165+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - JMX support (neo4j-jmx), version: 2.0.2; revision: 2.0.2:2.0-maint:1007/47f4314f1f50098884c1c1f4e1c3b79d5ce46db1
+2014-08-28 16:15:50.165+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Matching (neo4j-graph-matching), version: 2.0.2; revision: 2.0.2:2.0-maint:1007/47f4314f1f50098884c1c1f4e1c3b79d5ce46db1
+2014-08-28 16:15:50.165+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Server API (server-api), version: 2.0.2; revision: 2.0.2:2.0-maint:1007/47f4314f1f50098884c1c1f4e1c3b79d5ce46db1
+2014-08-28 16:15:50.165+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.0.2; revision: 2.0.2:2.0-maint:1007/47f4314f1f50098884c1c1f4e1c3b79d5ce46db1
+2014-08-28 16:15:50.166+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher (neo4j-cypher), version: 2.0.2; revision: 2.0.2:2.0-maint:1007/47f4314f1f50098884c1c1f4e1c3b79d5ce46db1
+2014-08-28 16:15:50.166+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Server (neo4j-server), version: 2.0.2; revision: 2.0.2:2.0-maint:1007/47f4314f1f50098884c1c1f4e1c3b79d5ce46db1
+2014-08-28 16:15:50.166+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Algorithms (neo4j-graph-algo), version: 2.0.2; revision: 2.0.2:2.0-maint:1007/47f4314f1f50098884c1c1f4e1c3b79d5ce46db1
+2014-08-28 16:15:50.166+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 2.0 (neo4j-cypher-compiler-2.0), version: 2.0.2; revision: 2.0.2:2.0-maint:1007/47f4314f1f50098884c1c1f4e1c3b79d5ce46db1
+2014-08-28 16:15:50.166+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Generic shell (neo4j-shell), version: 2.0.2; revision: 2.0.2:2.0-maint:1007/47f4314f1f50098884c1c1f4e1c3b79d5ce46db1
+2014-08-28 16:15:50.166+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 1.9 (neo4j-cypher-compiler-1.9), version: 2.0.2; revision: 2.0.2:2.0-maint:1007/47f4314f1f50098884c1c1f4e1c3b79d5ce46db1
+2014-08-28 16:15:50.166+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neo4j-udc, version: 2.0.2; revision: 2.0.2:2.0-maint:1007/47f4314f1f50098884c1c1f4e1c3b79d5ce46db1
+2014-08-28 16:15:50.166+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Commons (neo4j-cypher-commons), version: 2.0.2; revision: 2.0.2:2.0-maint:1007/47f4314f1f50098884c1c1f4e1c3b79d5ce46db1
+2014-08-28 16:15:50.166+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2014-08-28 16:15:50.169+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2014-08-28 16:15:50.169+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2014-08-28 16:15:50.169+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2014-08-28 16:15:50.169+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.1
+2014-08-28 16:15:50.169+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore v0.A.1
+2014-08-28 16:15:50.169+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.1
+2014-08-28 16:15:50.169+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.1
+2014-08-28 16:15:50.169+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.1
+2014-08-28 16:15:50.169+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore v0.A.1
+2014-08-28 16:15:50.169+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.1
+2014-08-28 16:15:50.169+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.1
+2014-08-28 16:15:50.169+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.1
+2014-08-28 16:15:50.170+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.1
+2014-08-28 16:15:50.170+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2014-08-28 16:15:50.170+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2014-08-28 16:15:50.170+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2014-08-28 16:15:50.170+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2014-08-28 16:15:50.170+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore: used=1 high=0
+2014-08-28 16:15:50.170+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=0 high=-1
+2014-08-28 16:15:50.170+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=0 high=-1
+2014-08-28 16:15:50.170+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=0 high=-1
+2014-08-28 16:15:50.171+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore: used=0 high=-1
+2014-08-28 16:15:50.171+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=0 high=-1
+2014-08-28 16:15:50.171+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=0 high=-1
+2014-08-28 16:15:50.171+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=1 high=0
+2014-08-28 16:15:50.171+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2014-08-28 16:15:50.171+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2014-08-28 16:15:50.171+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2014-08-28 16:15:50.171+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2014-08-28 16:15:50.172+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2014-08-28 16:15:50.172+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 250140434432 / 193213464576 / 77
+Storage files: (filename : modification date - size)
+2014-08-28 16:15:50.172+0000 INFO  [o.n.k.i.DiagnosticsManager]:   active_tx_log: 2014-08-28T18:15:50+0200 - 11.00 B
+2014-08-28 16:15:50.172+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2014-08-28 16:15:50.173+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene-store.db: 2014-08-28T18:15:50+0200 - 40.00 B
+2014-08-28 16:15:50.173+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.1: 2014-08-28T18:15:50+0200 - 16.00 B
+2014-08-28 16:15:50.173+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.active: 2014-08-28T18:15:50+0200 - 4.00 B
+2014-08-28 16:15:50.174+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2014-08-28T18:15:50+0200 - 60.00 B
+2014-08-28 16:15:50.174+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2014-08-28T18:15:49+0200 - 0.00 B
+2014-08-28 16:15:50.174+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2014-08-28T18:15:50+0200 - 43.66 kB
+2014-08-28 16:15:50.174+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2014-08-28T18:15:49+0200 - 63.00 B
+2014-08-28 16:15:50.175+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2014-08-28T18:15:49+0200 - 9.00 B
+2014-08-28 16:15:50.175+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db: 2014-08-28T18:15:49+0200 - 0.00 B
+2014-08-28 16:15:50.175+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.id: 2014-08-28T18:15:49+0200 - 9.00 B
+2014-08-28 16:15:50.175+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names: 2014-08-28T18:15:49+0200 - 38.00 B
+2014-08-28 16:15:50.176+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names.id: 2014-08-28T18:15:49+0200 - 9.00 B
+2014-08-28 16:15:50.176+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2014-08-28T18:15:49+0200 - 0.00 B
+2014-08-28 16:15:50.176+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2014-08-28T18:15:49+0200 - 9.00 B
+2014-08-28 16:15:50.176+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels: 2014-08-28T18:15:49+0200 - 68.00 B
+2014-08-28 16:15:50.177+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels.id: 2014-08-28T18:15:49+0200 - 9.00 B
+2014-08-28 16:15:50.177+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2014-08-28T18:15:49+0200 - 0.00 B
+2014-08-28 16:15:50.177+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2014-08-28T18:15:49+0200 - 128.00 B
+2014-08-28 16:15:50.177+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2014-08-28T18:15:49+0200 - 9.00 B
+2014-08-28 16:15:50.178+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2014-08-28T18:15:49+0200 - 9.00 B
+2014-08-28 16:15:50.178+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2014-08-28T18:15:49+0200 - 0.00 B
+2014-08-28 16:15:50.178+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2014-08-28T18:15:49+0200 - 9.00 B
+2014-08-28 16:15:50.178+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2014-08-28T18:15:49+0200 - 38.00 B
+2014-08-28 16:15:50.179+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2014-08-28T18:15:49+0200 - 9.00 B
+2014-08-28 16:15:50.179+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2014-08-28T18:15:49+0200 - 128.00 B
+2014-08-28 16:15:50.179+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2014-08-28T18:15:49+0200 - 9.00 B
+2014-08-28 16:15:50.179+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2014-08-28T18:15:49+0200 - 0.00 B
+2014-08-28 16:15:50.180+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2014-08-28T18:15:49+0200 - 9.00 B
+2014-08-28 16:15:50.180+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2014-08-28T18:15:49+0200 - 0.00 B
+2014-08-28 16:15:50.180+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2014-08-28T18:15:49+0200 - 9.00 B
+2014-08-28 16:15:50.180+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2014-08-28T18:15:49+0200 - 38.00 B
+2014-08-28 16:15:50.180+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2014-08-28T18:15:49+0200 - 9.00 B
+2014-08-28 16:15:50.181+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db: 2014-08-28T18:15:49+0200 - 64.00 B
+2014-08-28 16:15:50.181+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db.id: 2014-08-28T18:15:49+0200 - 9.00 B
+2014-08-28 16:15:50.181+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.1: 2014-08-28T18:15:50+0200 - 16.00 B
+2014-08-28 16:15:50.181+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.active: 2014-08-28T18:15:50+0200 - 4.00 B
+2014-08-28 16:15:50.181+0000 INFO  [o.n.k.i.DiagnosticsManager]:   schema:
+2014-08-28 16:15:50.182+0000 INFO  [o.n.k.i.DiagnosticsManager]:     label:
+2014-08-28 16:15:50.182+0000 INFO  [o.n.k.i.DiagnosticsManager]:       lucene:
+2014-08-28 16:15:50.182+0000 INFO  [o.n.k.i.DiagnosticsManager]:         write.lock: 2014-08-28T18:15:49+0200 - 0.00 B
+2014-08-28 16:15:50.182+0000 INFO  [o.n.k.i.DiagnosticsManager]:       - Total: 2014-08-28T18:15:49+0200 - 0.00 B
+2014-08-28 16:15:50.182+0000 INFO  [o.n.k.i.DiagnosticsManager]:     - Total: 2014-08-28T18:15:49+0200 - 0.00 B
+2014-08-28 16:15:50.183+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2014-08-28T18:15:49+0200 - 0.00 B
+2014-08-28 16:15:50.183+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2014-08-28T18:15:49+0200 - 0.00 B
+2014-08-28 16:15:50.183+0000 INFO  [o.n.k.i.DiagnosticsManager]:   tm_tx_log.1: 2014-08-28T18:15:50+0200 - 0.00 B
+2014-08-28 16:15:50.183+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2014-08-28 16:15:50.213+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor started. 
+2014-08-28 16:15:50.213+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now ready
+2014-08-28 16:15:50.213+0000 INFO  [o.n.s.d.CommunityDatabase]: Successfully started database
+2014-08-28 16:15:50.213+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED START ---
+2014-08-28 16:15:50.530+0000 INFO  [o.n.s.CommunityNeoServer]: Starting HTTP on port :7474 with 40 threads available
+2014-08-28 16:15:50.791+0000 INFO  [o.n.s.CommunityNeoServer]: Enabling HTTPS on port :7473
+2014-08-28 16:15:50.791+0000 INFO  [o.n.s.CommunityNeoServer]: No SSL certificate found, generating a self-signed certificate..
+2014-08-28 16:15:51.047+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for org.neo4j.server.configuration.Configurator START ---
+2014-08-28 16:15:51.049+0000 INFO  [o.n.k.i.DiagnosticsManager]: Server configuration:
+2014-08-28 16:15:51.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.database.location = data/graph.db
+2014-08-28 16:15:51.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.port = 7474
+2014-08-28 16:15:51.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.enabled = true
+2014-08-28 16:15:51.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.port = 7473
+2014-08-28 16:15:51.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.cert.location = conf/ssl/snakeoil.cert
+2014-08-28 16:15:51.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.key.location = conf/ssl/snakeoil.key
+2014-08-28 16:15:51.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.keystore.location = data/keystore
+2014-08-28 16:15:51.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webadmin.rrdb.location = data/rrd
+2014-08-28 16:15:51.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.db.tuning.properties = conf/neo4j.properties
+2014-08-28 16:15:51.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.manage.console_engines = shell
+2014-08-28 16:15:51.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.http.log.enabled = false
+2014-08-28 16:15:51.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.http.log.config = conf/neo4j-http-logging.xml
+2014-08-28 16:15:51.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webadmin.management.uri = /db/manage/
+2014-08-28 16:15:51.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webadmin.data.uri = /db/data/
+2014-08-28 16:15:51.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for org.neo4j.server.configuration.Configurator END ---
+2014-08-28 16:15:51.056+0000 INFO  [o.n.s.m.DiscoveryModule]: Mounted discovery module at [/]
+2014-08-28 16:15:51.066+0000 INFO  [o.n.s.m.RESTApiModule]: Mounted REST API at [/db/data/]
+2014-08-28 16:15:51.070+0000 INFO  [o.n.s.m.ManagementApiModule]: Mounted management API at [/db/manage/]
+2014-08-28 16:15:51.070+0000 INFO  [o.n.s.m.WebAdminModule]: Mounted webadmin at [/webadmin]
+2014-08-28 16:15:51.070+0000 INFO  [o.n.s.m.Neo4jBrowserModule]: Mounted Neo4j Browser at [/browser]
+2014-08-28 16:15:51.150+0000 INFO  [o.n.s.w.Jetty9WebServer]: Mounting static content at [/webadmin] from [webadmin-html]
+2014-08-28 16:15:51.207+0000 INFO  [o.n.s.w.Jetty9WebServer]: Mounting static content at [/browser] from [browser]
+2014-08-28 16:15:52.499+0000 INFO  [o.n.s.CommunityNeoServer]: Remote interface ready and available at [http://localhost:7474/]
+2014-08-28 16:15:52.500+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED END ---
+2014-08-28 17:28:57.091+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 302740ms [total block time: 302.74s]
+2014-08-28 18:27:27.651+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 732ms [total block time: 303.472s]
+2014-08-28 19:06:54.055+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 927739ms [total block time: 1231.211s]
+2014-08-28 19:34:44.085+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 888895ms [total block time: 2120.106s]
+2014-08-28 19:36:43.477+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 236ms [total block time: 2120.342s]
+2014-08-28 19:47:45.041+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 157879ms [total block time: 2278.221s]
+2014-08-28 19:52:31.372+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 867ms [total block time: 2279.088s]
+2014-08-28 19:55:31.017+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 174191ms [total block time: 2453.279s]
+2014-08-28 19:59:28.615+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1165ms [total block time: 2454.444s]
+2014-08-28 20:00:26.087+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 51817ms [total block time: 2506.261s]
+2014-08-28 20:02:44.132+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1042ms [total block time: 2507.303s]
+2014-08-28 20:03:28.009+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 38376ms [total block time: 2545.679s]
+2014-08-28 20:15:01.050+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 204258ms [total block time: 2749.937s]
+2014-08-28 20:21:18.157+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 675ms [total block time: 2750.612s]
+2014-08-28 20:21:54.015+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 30406ms [total block time: 2781.018s]
+2014-08-28 20:51:55.026+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1128382ms [total block time: 3909.4s]
+2014-08-28 23:52:31.091+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 10798435ms [total block time: 14707.835s]
+2014-08-29 05:29:14.843+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 20190713ms [total block time: 34898.547s]
+2014-08-29 05:55:40.055+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 800714ms [total block time: 35699.266s]
+2014-08-29 06:25:38.453+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1082ms [total block time: 35700.344s]
+2014-08-29 06:28:59.080+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 194631ms [total block time: 35894.977s]
+2014-08-29 06:34:07.252+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 408ms [total block time: 35895.383s]
+2014-08-29 06:49:00.062+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1376ms [total block time: 35896.76s]
+2014-08-29 17:47:18.094+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 10798265ms [total block time: 46695.023s]
+2014-08-29 17:47:24.971+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 308ms [total block time: 46695.332s]
+2014-08-30 13:49:14.697+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 147ms [total block time: 46695.48s]
+2014-08-30 13:54:27.773+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 777ms [total block time: 46696.258s]
+2014-08-30 15:27:21.071+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 24748ms [total block time: 46721.004s]
+2014-08-30 15:45:06.972+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 739ms [total block time: 46721.742s]
+2014-08-30 18:45:10.008+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 10797472ms [total block time: 57519.215s]
+2014-08-31 09:26:00.324+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 52847307ms [total block time: 110366.52s]
+2014-08-31 12:40:54.054+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 10798374ms [total block time: 121164.9s]
+2014-08-31 16:17:02.200+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 12965312ms [total block time: 134130.2s]
+2014-08-31 18:09:20.017+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 6047111ms [total block time: 140177.31s]
+2014-08-31 21:13:17.015+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 10798320ms [total block time: 150975.62s]
+2014-09-01 05:24:39.427+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 29479434ms [total block time: 180455.08s]
+2014-09-01 06:20:53.213+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3359240ms [total block time: 183814.31s]
+2014-09-01 06:21:31.213+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 205ms [total block time: 183814.52s]
+2014-09-01 06:26:13.478+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 889ms [total block time: 183815.4s]
+2014-09-01 07:01:51.471+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1712030ms [total block time: 185527.44s]
+2014-09-01 07:01:53.314+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 426ms [total block time: 185527.86s]
+2014-09-01 07:54:39.024+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1792719ms [total block time: 187320.58s]
+2014-09-01 07:56:26.093+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 57480ms [total block time: 187378.06s]
+2014-09-01 07:58:12.083+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 57059ms [total block time: 187435.12s]
+2014-09-01 07:58:59.658+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 661ms [total block time: 187435.78s]
+2014-09-01 08:44:23.053+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 2721268ms [total block time: 190157.06s]
+2014-09-01 08:44:25.035+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 163ms [total block time: 190157.22s]
+2014-09-01 16:24:37.093+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3394677ms [total block time: 193551.89s]
+2014-09-01 16:29:39.014+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1164ms [total block time: 193553.06s]
+2014-09-01 20:39:28.008+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 10800277ms [total block time: 204353.33s]
+2014-09-02 06:00:48.413+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 33677630ms [total block time: 238030.95s]
+2014-09-02 06:01:11.390+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 251ms [total block time: 238031.22s]
+2014-09-02 12:38:26.095+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 86095ms [total block time: 238117.31s]
+2014-09-02 16:27:14.101+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 4711425ms [total block time: 242828.73s]
+2014-09-03 06:32:36.095+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3646240ms [total block time: 246474.97s]

@@ -1,0 +1,32 @@
+<%= form_for(@road) do |f| %>
+  <% if @road.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@road.errors.count, "error") %> prohibited this road from being saved:</h2>
+
+      <ul>
+      <% @road.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :length %><br>
+    <%= f.number_field :length %>
+  </div>
+
+  <div class="field">
+    <%= label_tag :from_node, 'From' %><br>
+    <%= select_tag :from_node, options_from_collection_for_select(City.all, "id", "name") %>
+  </div>
+
+  <div class="field">
+    <%= label_tag :to_node, 'To' %><br>
+    <%= select_tag :to_node, options_from_collection_for_select(City.all, "id", "name") %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

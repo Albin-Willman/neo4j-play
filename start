@@ -1,0 +1,11 @@
+rails new neo4j-play -m http://andreasronge.github.com/neo4j/neo4j.rb -O
+ cd neo4j-play
+ rake neo4j:install[community-2.0.2]
+ rake neo4j:start
+
+ rails generate scaffold city name:string
+ rails generate scaffold road length:integer
+ rails s
+
+
+ open http://localhost:3000/cities
